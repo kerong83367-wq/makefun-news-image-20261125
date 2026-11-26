@@ -8,7 +8,7 @@ Entry for make.fun's "Sum up 25 November's world news in one image" bounty ($100
 
 ## Sources
 
-The facts in the image were checked against reporting from 25 November 2026, including the Wall Street Journal, CNN, Barron's, Just Security and the South China Morning Post.
+The facts in the image were checked against reporting from 25 November 2026, including the Wall Street Journal, CNN, Barron's, Just Security and the South China Morning Post. The US market close figures in the image (Dow 50,184.02, +0.33%; S&P 500 7,182.87, −0.25%; Nasdaq 23,585.80, −0.62%; Nvidia $149.30, −3.91%) are the 25 November closing levels.
 
 ## Run it
 

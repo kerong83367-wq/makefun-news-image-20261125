@@ -73,4 +73,9 @@ if (width > MAX_DIMENSION || height > MAX_DIMENSION) {
 
 mkdirSync(outDir, { recursive: true });
 writeFileSync(dst, image);
+
+// Read the copy back and confirm it is byte-identical to the source,
+// so a partial or failed write can never pass silently.
+const written = readFileSync(dst);
+if (!written.equals(image)) fail("the copied entry.png does not match the source");
 console.log(`entry: wrote ${dst} (${width}x${height}, ${image.length} bytes)`);
